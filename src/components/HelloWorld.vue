@@ -35,12 +35,9 @@
 </template>
 
 <script>
-import { Firestore } from '@/firebase';
-
 export default {
     name: 'HelloWorld',
     props: {
-        col: Firestore.collection('homework'),
         msg: String
     }
 };
